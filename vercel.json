@@ -4,18 +4,6 @@
   "installCommand": "npm install",
   "framework": "nextjs",
   "regions": ["iad1"],
-  "env": {
-    "NEXT_PUBLIC_ERAND_CONTRACT_ADDRESS": "@erand_contract_address",
-    "NEXT_PUBLIC_NETWORK_ID": "@network_id",
-    "STRIPE_SECRET_KEY": "@stripe_secret_key",
-    "STRIPE_PUBLISHABLE_KEY": "@stripe_publishable_key",
-    "STRIPE_ISSUING_API_KEY": "@stripe_issuing_api_key",
-    "NEXT_PUBLIC_SUPABASE_URL": "@supabase_url",
-    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@supabase_anon_key",
-    "SUPABASE_SERVICE_ROLE_KEY": "@supabase_service_role_key",
-    "APPLE_PAY_MERCHANT_ID": "@apple_pay_merchant_id",
-    "NEXT_PUBLIC_APP_URL": "@app_url"
-  },
   "headers": [
     {
       "source": "/(.*)",
